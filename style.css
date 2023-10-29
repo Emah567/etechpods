@@ -108,8 +108,9 @@ ul {
 .nav-links a {
   text-decoration: none;
   color: #333;
-  font-weight: bold;
+  font-weight: 512;
   position: relative;
+  font-size: 13px;
   transition: color 0.3s; /* Add transition for hover effect */
 }
 
@@ -139,6 +140,10 @@ ul {
   .navbar{
     padding: 20px;
   }
+
+  .buy-button{
+    margin-right: 3%;
+    }
   .nav-links {
       display: none;
       flex-direction: column;
